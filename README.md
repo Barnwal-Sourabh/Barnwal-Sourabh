@@ -2,29 +2,10 @@
 
 <h2 align="center">About me</h2>
 
-golang
-package main
-
-import (
-	"fmt"
-)
-
-type Bio map[string]string
-
-func main() {
-	for k, v := range GetBio() {
-		fmt.Printf("%+v: %+v\n", k, v)
-	}
-}
-
-func GetBio() Bio {
-	return Bio{
 		"- ⚡ Quick bio:":                    "I just want to learn new things to make life easier for myself and others",
 		"- 🌱 I’m currently learning":        "Data Structures and Algorithms in JAVA",
 		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
 		"- 📫 How to reach me:":              "https://github.com/Barnwal-Sourabh",
-	}
-}
 
 
 <h2 align="center">You can reach me at :alien:</h2>
